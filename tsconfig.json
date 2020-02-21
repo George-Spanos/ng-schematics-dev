@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "made-with-love": [
+        "dist/made-with-love"
+      ],
+      "made-with-love/*": [
+        "dist/made-with-love/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
